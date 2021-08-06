@@ -36,7 +36,6 @@ export function fetchUserPosts() {
         });
         console.log(posts);
         dispatch({ type: USER_POSTS_STATE_CHANGE, posts });
-
       });
   };
 }
