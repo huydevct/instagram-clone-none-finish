@@ -11,7 +11,6 @@ import FeedScreen from "./main/Feed";
 import ProfileScreen from "./main/Profile";
 import SearchScreen from "./main/Search";
 
-
 const Tab = createMaterialBottomTabNavigator();
 
 const EmptyScreen = () => {
