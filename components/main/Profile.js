@@ -77,8 +77,6 @@ function Profile(props) {
     return <View />;
   }
 
-  const { currentUser, posts } = props;
-
   return (
     <View style={styles.container}>
       <View style={styles.containerInfo}>
